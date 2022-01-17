@@ -7,4 +7,4 @@ testing of authentication towards LDAP.
     docker build . -t apacheds
     docker run -d -p 10389:10389 apacheds
 
-You can now connect to LDAP at localhost:10389 with username "admin" and password "secret".
+You can now connect to LDAP at localhost:10389 with username "uid=admin,ou=system" and password "secret".
